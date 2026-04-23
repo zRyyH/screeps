@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/zRyyH/screeps/compare/v1.0.1...v1.0.2) (2026-04-23)
+
+
+### Bug Fixes
+
+* build ci ([563cc76](https://github.com/zRyyH/screeps/commit/563cc76abc200b85ead91007b8135f43f02ea286))
+
 ## [1.0.1](https://github.com/zRyyH/screeps/compare/v1.0.0...v1.0.1) (2026-04-23)
 
 
