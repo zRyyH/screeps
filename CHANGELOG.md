@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/zRyyH/screeps/compare/v1.0.2...v1.1.0) (2026-04-23)
+
+
+### Features
+
+* add logger ([b1624a0](https://github.com/zRyyH/screeps/commit/b1624a0d4c896dbe12c5f337ceb0b240e212f589))
+
 ## [1.0.2](https://github.com/zRyyH/screeps/compare/v1.0.1...v1.0.2) (2026-04-23)
 
 
