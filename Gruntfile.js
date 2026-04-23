@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 module.exports = function(grunt) {
 
     grunt.loadNpmTasks('grunt-screeps');
@@ -5,9 +7,9 @@ module.exports = function(grunt) {
     grunt.initConfig({
         screeps: {
             options: {
-                email: 'zryyh.br@mail.com',
-                token: '1a704924-9df4-4120-a1b2-5e6939a6710c',
-                branch: 'default'
+                email: process.env.SCREEPS_EMAIL,
+                token: process.env.SCREEPS_TOKEN,
+                branch: process.env.SCREEPS_BRANCH || 'default'
             },
             dist: {
                 src: ['src/*.js']
