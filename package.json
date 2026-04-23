@@ -4,16 +4,17 @@
   "description": "",
   "main": "Gruntfile.js",
   "scripts": {
-    "deploy": "grunt screeps",
-    "lint": "eslint src/**/*.js",
-    "lint:fix": "eslint src/**/*.js --fix",
-    "format": "prettier --write src/**/*.js",
-    "format:check": "prettier --check src/**/*.js",
+    "deploy": "grunt deploy",
+    "build": "tsc",
+    "lint": "eslint src/**/*.ts",
+    "lint:fix": "eslint src/**/*.ts --fix",
+    "format": "prettier --write src/**/*.ts",
+    "format:check": "prettier --check src/**/*.ts",
     "prepare": "husky",
     "release": "semantic-release"
   },
   "lint-staged": {
-    "src/**/*.js": [
+    "src/**/*.ts": [
       "eslint --fix",
       "prettier --write"
     ]
@@ -37,15 +38,21 @@
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "@semantic-release/github": "^12.0.6",
+    "@types/screeps": "^3.3.8",
+    "@typescript-eslint/eslint-plugin": "^8.59.0",
+    "@typescript-eslint/parser": "^8.59.0",
     "dotenv": "^17.4.2",
     "eslint": "^10.2.1",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.5",
     "grunt": "^1.6.2",
     "grunt-screeps": "^1.5.0",
+    "grunt-shell": "^4.0.0",
+    "grunt-ts": "^6.0.0-beta.22",
     "husky": "^9.1.7",
     "lint-staged": "^16.4.0",
     "prettier": "^3.8.3",
-    "semantic-release": "^25.0.3"
+    "semantic-release": "^25.0.3",
+    "typescript": "^6.0.3"
   }
 }
