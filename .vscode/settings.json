@@ -1,0 +1,25 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/CVS": true,
+        "**/*.git": true,
+        "**/.gitignore": true,
+        "**/Gruntfile.js": false,
+        "**/package-lock.json": true,
+        "**/package.json": true,
+        "**/node_modules": true,
+        "**/.vscode": true
+    },
+    "explorerExclude.backup": {},
+    "python-envs.pythonProjects": [
+        {
+            "path": ".vscode",
+            "envManager": "ms-python.python:venv",
+            "packageManager": "ms-python.python:pip"
+        }
+    ]
+}
